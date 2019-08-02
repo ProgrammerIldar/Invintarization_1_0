@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c8eac3ec82d49d9a44790e888b3e6d8" Name="Diagram1">
+        <EntityTypeShape EntityType="InvintarizationModel.Catriges" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.CatrigeStatus" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.Color" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.FirmPrinter" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.LocationPrinter" Width="1.5" PointX="10.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.ModelColors" Width="1.5" PointX="12" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.ModelPrinter" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.Printers" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.PrinterStatus" Width="1.5" PointX="6" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.Replacement" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.Seizure" Width="1.5" PointX="7.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvintarizationModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="InvintarizationModel.FK_Catriges_CatrigeStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_Catriges_ModelPrinter" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_Replacement_Catriges" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_Seizure_Catriges" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_ModelColors_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_ModelPrinter_FirmPrinter" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_LocationPrinter_Printers" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_Printers_ModelPrinter" ManuallyRouted="false" />
+        <AssociationConnector Association="InvintarizationModel.FK_Printers_PrinterStatus" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
