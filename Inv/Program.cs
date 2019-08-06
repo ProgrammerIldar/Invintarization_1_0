@@ -16,7 +16,7 @@ namespace Inv
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CatrigesForm());
+            Application.Run(new ConnectDBForm());
         }
     }
 }

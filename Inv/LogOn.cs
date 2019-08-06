@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Inv
 {
-    public partial class MainForm : MetroFramework.Forms.MetroForm
+    public partial class LogOn : MetroFramework.Forms.MetroForm
     {
-        public MainForm()
+        public LogOn()
         {
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void LogOn_Load(object sender, EventArgs e)
         {
 
         }

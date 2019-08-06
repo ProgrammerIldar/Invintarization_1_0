@@ -10,8 +10,6 @@ namespace Inv.WorkClasess
     {
         public static string connection = System.Configuration.ConfigurationManager.ConnectionStrings["InvModel"].ConnectionString;
         
-           
-
 
     }
 }
