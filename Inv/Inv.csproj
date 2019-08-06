@@ -138,11 +138,11 @@
     <Compile Include="ConnectDBForm.Designer.cs">
       <DependentUpon>ConnectDBForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogOn.cs">
+    <Compile Include="LogOnForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogOn.Designer.cs">
-      <DependentUpon>LogOn.cs</DependentUpon>
+    <Compile Include="LogOnForm.Designer.cs">
+      <DependentUpon>LogOnForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -228,6 +228,7 @@
     <Compile Include="WorkClasess\Connections.cs" />
     <Compile Include="WorkClasess\ControlPenalColor.cs" />
     <Compile Include="WorkClasess\ListCatriges.cs" />
+    <Compile Include="WorkClasess\LogOn.cs" />
     <Compile Include="WorkClasess\ConnectDB.cs" />
     <Compile Include="WorkClasess\OperationOfCatrige.cs" />
     <Compile Include="WorkClasess\SearchCatriges.cs" />
@@ -238,8 +239,8 @@
     <EmbeddedResource Include="ConnectDBForm.resx">
       <DependentUpon>ConnectDBForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogOn.resx">
-      <DependentUpon>LogOn.cs</DependentUpon>
+    <EmbeddedResource Include="LogOnForm.resx">
+      <DependentUpon>LogOnForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

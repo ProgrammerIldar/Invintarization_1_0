@@ -1,12 +1,5 @@
 ﻿using Inv.WorkClasess;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Inv
@@ -35,15 +28,19 @@ namespace Inv
 
         private void MetroButton1_Click(object sender, EventArgs e)
         {
-
+            LogOnForm logOnForm = new LogOnForm();
+            logOnForm.Show();
+            this.Hide();
 
         }
 
         private void MetroButton3_Click(object sender, EventArgs e)
         {
             ConnectDB log = new ConnectDB(ServerCB.Text, InitialCatalogTB.Text, LoginTB.Text, passWordTB.Text);
-            log.checkConection(metroConectbtn,panelConect, ConectInfo);
-            
+            log.checkConection(metroConectbtn, panelConect, ConectInfo);
+           
+
+
         }
     }
 }

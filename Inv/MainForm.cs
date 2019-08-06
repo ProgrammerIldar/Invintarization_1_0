@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inv.WorkClasess;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,8 @@ namespace Inv
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            
+           
         }
     }
 }

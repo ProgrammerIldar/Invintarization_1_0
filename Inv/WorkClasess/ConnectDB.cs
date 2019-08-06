@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Data;
-using System.Data.SqlClient;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Inv.WorkClasess
 {
-    public class ConnectDB:Connections
+   public class ConnectDB
     {
         private string DataSource { get; set; }
         //public string DataBaseName { get; set; }
@@ -24,8 +26,8 @@ namespace Inv.WorkClasess
             PassWord = passWord;
         }
 
-       // проверка подключения к Базе данных
-            public void checkConection(Button btn, Panel panel, Label connectInfo)
+        // проверка подключения к Базе данных
+        public void checkConection(Button btn, Panel panel, Label connectInfo)
         {
             string connectionString = string.Format("Data Source={0}; Initial Catalog={1}; User ID={2}; Password={3}", DataSource, InitialCatalog, Login, PassWord);
 
@@ -46,9 +48,7 @@ namespace Inv.WorkClasess
                 connectInfo.Text = "Подключение к базе данных не установлено";
             }
         }
-     
+
 
     }
-
-    
 }

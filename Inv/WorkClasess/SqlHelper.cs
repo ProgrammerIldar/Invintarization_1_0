@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Inv.WorkClasess
 {
-   public class SqlHelper
-   {
+     public class SqlHelper
+     {
         SqlConnection cn;
 
         public SqlHelper(string connectionString)
@@ -24,6 +24,5 @@ namespace Inv.WorkClasess
                 return true;
             }
         }
-
     }
 }

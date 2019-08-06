@@ -36,17 +36,16 @@
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.ServerCB = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.InitialCatalogTB = new System.Windows.Forms.TextBox();
             this.LoginTB = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panelConect = new System.Windows.Forms.Panel();
             this.ConectInfo = new System.Windows.Forms.Label();
+            this.InitialCatalogTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // passWordTB
             // 
             this.passWordTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passWordTB.Location = new System.Drawing.Point(199, 234);
+            this.passWordTB.Location = new System.Drawing.Point(196, 245);
             this.passWordTB.Name = "passWordTB";
             this.passWordTB.PasswordChar = '*';
             this.passWordTB.Size = new System.Drawing.Size(453, 31);
@@ -56,7 +55,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Unicode MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 187);
+            this.label1.Location = new System.Drawing.Point(60, 198);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 25);
             this.label1.TabIndex = 2;
@@ -66,7 +65,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Unicode MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(63, 238);
+            this.label2.Location = new System.Drawing.Point(60, 249);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 25);
             this.label2.TabIndex = 3;
@@ -74,7 +73,7 @@
             // 
             // metroConectbtn
             // 
-            this.metroConectbtn.Location = new System.Drawing.Point(352, 283);
+            this.metroConectbtn.Location = new System.Drawing.Point(349, 294);
             this.metroConectbtn.Name = "metroConectbtn";
             this.metroConectbtn.Size = new System.Drawing.Size(147, 42);
             this.metroConectbtn.TabIndex = 4;
@@ -84,7 +83,7 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(505, 283);
+            this.metroButton2.Location = new System.Drawing.Point(502, 294);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(147, 42);
             this.metroButton2.TabIndex = 5;
@@ -94,7 +93,7 @@
             // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(199, 283);
+            this.metroButton3.Location = new System.Drawing.Point(196, 294);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(147, 42);
             this.metroButton3.TabIndex = 6;
@@ -121,35 +120,17 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Имя сервера:";
             // 
-            // InitialCatalogTB
-            // 
-            this.InitialCatalogTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.InitialCatalogTB.Location = new System.Drawing.Point(199, 149);
-            this.InitialCatalogTB.Name = "InitialCatalogTB";
-            this.InitialCatalogTB.Size = new System.Drawing.Size(453, 29);
-            this.InitialCatalogTB.TabIndex = 9;
-            // 
             // LoginTB
             // 
             this.LoginTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginTB.Location = new System.Drawing.Point(199, 184);
+            this.LoginTB.Location = new System.Drawing.Point(196, 195);
             this.LoginTB.Name = "LoginTB";
             this.LoginTB.Size = new System.Drawing.Size(453, 31);
             this.LoginTB.TabIndex = 0;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Unicode MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 149);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 25);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Название:";
-            // 
             // panelConect
             // 
-            this.panelConect.Location = new System.Drawing.Point(169, 298);
+            this.panelConect.Location = new System.Drawing.Point(166, 309);
             this.panelConect.Name = "panelConect";
             this.panelConect.Size = new System.Drawing.Size(14, 14);
             this.panelConect.TabIndex = 11;
@@ -158,20 +139,26 @@
             // 
             this.ConectInfo.AutoSize = true;
             this.ConectInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ConectInfo.Location = new System.Drawing.Point(199, 352);
+            this.ConectInfo.Location = new System.Drawing.Point(199, 392);
             this.ConectInfo.Name = "ConectInfo";
             this.ConectInfo.Size = new System.Drawing.Size(0, 25);
             this.ConectInfo.TabIndex = 12;
+            // 
+            // InitialCatalogTB
+            // 
+            this.InitialCatalogTB.Location = new System.Drawing.Point(196, 152);
+            this.InitialCatalogTB.Name = "InitialCatalogTB";
+            this.InitialCatalogTB.Size = new System.Drawing.Size(453, 19);
+            this.InitialCatalogTB.TabIndex = 13;
             // 
             // ConnectDBForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 450);
+            this.Controls.Add(this.InitialCatalogTB);
             this.Controls.Add(this.ConectInfo);
             this.Controls.Add(this.panelConect);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.InitialCatalogTB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ServerCB);
             this.Controls.Add(this.metroButton3);
@@ -183,7 +170,7 @@
             this.Controls.Add(this.LoginTB);
             this.Font = new System.Drawing.Font("Archangelsk", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "ConnectDBForm";
-            this.Padding = new System.Windows.Forms.Padding(20, 55, 20, 18);
+            this.Padding = new System.Windows.Forms.Padding(20, 60, 20, 18);
             this.Text = "Соединение с базой данных";
             this.Load += new System.EventHandler(this.LogOnForm_Load);
             this.ResumeLayout(false);
@@ -200,10 +187,9 @@
         private MetroFramework.Controls.MetroButton metroButton3;
         private System.Windows.Forms.ComboBox ServerCB;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox InitialCatalogTB;
         private System.Windows.Forms.TextBox LoginTB;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panelConect;
         private System.Windows.Forms.Label ConectInfo;
+        private System.Windows.Forms.TextBox InitialCatalogTB;
     }
 }
